@@ -1,0 +1,3 @@
+model,n,strict_pass,strict_mutation_unknown,adapted_pass,adapter_ineligible,eligible_json_unparseable,parsed_wrong,diagnostic_mutation_assessable,diagnostic_mutation_positive_cases,diagnostic_destructive_rows
+gemini,60,0,60,59,1,0,0,59,0,0
+haiku,60,0,60,14,8,0,38,52,32,55

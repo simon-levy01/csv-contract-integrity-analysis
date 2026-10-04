@@ -1,0 +1,13 @@
+model,recipe,n,strict_pass,strict_mutation_unknown,adapted_pass,adapter_ineligible,eligible_json_unparseable,parsed_wrong,diagnostic_mutation_assessable,diagnostic_mutation_positive_cases,diagnostic_destructive_rows
+gemini,1,4,0,4,4,0,0,0,4,0,0
+haiku,1,4,0,4,0,0,0,4,4,4,6
+gemini,2,4,0,4,4,0,0,0,4,0,0
+haiku,2,4,0,4,0,0,0,4,4,4,10
+gemini,3,4,0,4,4,0,0,0,4,0,0
+haiku,3,4,0,4,0,1,0,3,3,3,4
+gemini,4,4,0,4,4,0,0,0,4,0,0
+haiku,4,4,0,4,0,0,0,4,4,4,5
+gemini,5,4,0,4,4,0,0,0,4,0,0
+haiku,5,4,0,4,0,0,0,4,4,4,8
+gemini,6,4,0,4,4,0,0,0,4,0,0
+haiku,6,4,0,4,0,0,0,4,4,4,12

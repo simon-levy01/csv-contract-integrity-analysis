@@ -1,0 +1,142 @@
+{
+  "artifact_type": "Offline analysis supplement; no benchmark modification or new model run",
+  "files": {
+    "AUDIT.md": {
+      "bytes": 3934,
+      "sha256": "af5022ccbbd12c94090b1d23ad12ebe8d33a3524228c5410bf814be5da174eeb"
+    },
+    "LICENSE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "NOTICE": {
+      "bytes": 1055,
+      "sha256": "6f96e584ecbe5731d9ec0a6b5371f30f9a5a021d5e1eed6ea0d876a59beeee07"
+    },
+    "PROVENANCE.md": {
+      "bytes": 4320,
+      "sha256": "10d2a46c645b5aec9ec2f825f6fb32edcde3631583b0b9183b4fcc4bb8b26c52"
+    },
+    "README.md": {
+      "bytes": 7969,
+      "sha256": "c06f8f896e10be4689ae29a1b0a1a074dd589b2ae68dc1ffb25ab74c7331f02a"
+    },
+    "REPORT.md": {
+      "bytes": 18727,
+      "sha256": "a4b3bb437cc0902a534317b1daf4924b8378fe97a59760de78ec68eace567952"
+    },
+    "analysis_helpers.py": {
+      "bytes": 8204,
+      "sha256": "959c7188c2e1eaf15dbd5f2f1b66cce1c20895afb0ca6fe27ec008ea2f686c8f"
+    },
+    "analyze.py": {
+      "bytes": 16243,
+      "sha256": "8304e4f9ef0ac652b6b9ef9fca50b0ba497fa18f62c85b71803824e59855b3c4"
+    },
+    "audit-receipt.json": {
+      "bytes": 1481,
+      "sha256": "ec5dc02579fca28959a3f7c7cd28b34dcef290c2a794636394620b69702facd9"
+    },
+    "data/contract.txt": {
+      "bytes": 5246,
+      "sha256": "fd05304bb5187c7f2c5ce7f03d8020a7721ada236971b44b7c2d7e04f9d843e2"
+    },
+    "data/frozen-cases.json": {
+      "bytes": 81011,
+      "sha256": "a08a7b2d3d2f6426098f83137e5de9bf5ac2ba13954af8fb831d6baf695371f9"
+    },
+    "data/frozen-plan.json": {
+      "bytes": 2114,
+      "sha256": "79e0605120db9ef15d62588477d481b6f871b1cd29b132cbe453888800aa9627"
+    },
+    "data/gemini/posthoc-diagnostics.json": {
+      "bytes": 31560,
+      "sha256": "4b0489a19be6d33f0fa98bcbab06a4fd96472311d251d23fa3b892a27281cc57"
+    },
+    "data/gemini/primary-report.json": {
+      "bytes": 107680,
+      "sha256": "1db779322fa5cf93e0dae218842c8ac1188e94252f08d4b4bb40136fcf749263"
+    },
+    "data/haiku/posthoc-diagnostics.json": {
+      "bytes": 29128,
+      "sha256": "b75c380f876d4f4ee3b8af842d88badba4642a330910313cb88dc9d7a0a2c201"
+    },
+    "data/haiku/primary-report.json": {
+      "bytes": 110414,
+      "sha256": "0653bda45621a01a742cb1ca21fa0c54569a01e10366176c5ebc3df1ba917d7d"
+    },
+    "expected/analysis.json": {
+      "bytes": 372763,
+      "sha256": "979a52c2084220fef51f6804d62dc41ea0a0a95ccbca2986882872f05b33aeb1"
+    },
+    "expected/case-ledger.csv": {
+      "bytes": 65931,
+      "sha256": "9904e754a484e09fddff5c291e288ec8e527d95cdc7082fc67a503dfc42c6ffe"
+    },
+    "expected/category-summary.csv": {
+      "bytes": 1266,
+      "sha256": "e91c582f7dec41255e82b727dc1d5aebeed3d276264350ed4aa81672c0299c92"
+    },
+    "expected/group-summary.csv": {
+      "bytes": 455,
+      "sha256": "e69d4753ad2abb9a88dd7bf1b7ce81e563ec47a25b038d9c12e2edca238decf0"
+    },
+    "expected/model-summary.csv": {
+      "bytes": 273,
+      "sha256": "db8d1d647c57f680ed56967b62c3f0dbe6eed42bf7cd32123988c4f6302bd473"
+    },
+    "expected/overlapping-failure-tags.csv": {
+      "bytes": 1115,
+      "sha256": "1cb81ba627e7451be230c7cd4e4696c74e50aeeada3695a5324214d34a28d623"
+    },
+    "expected/recipe-summary.csv": {
+      "bytes": 560,
+      "sha256": "0a0da08c9bce9db838cc36c3fe065c1637c4ffcb472067fed34ba544d434d613"
+    },
+    "expected/reproduction-receipt.json": {
+      "bytes": 1581,
+      "sha256": "2113cbcdcdee780547aad7c9fec415b3b755104bcac97b1b9ac23dfe00597b99"
+    },
+    "scorer.py": {
+      "bytes": 8701,
+      "sha256": "446bd194f3d0c13fc5ef5d1bf5f21bffe268af98430c1df3e4150c4ee5d9958a"
+    },
+    "tests/test_offline.py": {
+      "bytes": 8184,
+      "sha256": "8bb222820cdf90f0312c3da9835f95bc6dd0e6511fc8d26700cffed616bddaa1"
+    }
+  },
+  "frozen_hashes": {
+    "case_payload_sha256": "a08a7b2d3d2f6426098f83137e5de9bf5ac2ba13954af8fb831d6baf695371f9",
+    "contract_sha256": "fd05304bb5187c7f2c5ce7f03d8020a7721ada236971b44b7c2d7e04f9d843e2",
+    "isolated_function_source_sha256": "31f1d417f9e2be27d87127369b6af05f5bb112aeb7455c524eb0317f9fc8da89",
+    "original_grader_hash_verification": "declaration-aligned only",
+    "original_grader_sha256_declared": "099985418bba51d1762e46bb86afed66f177f4d98bf2dadd02630674f8b11c3d"
+  },
+  "integrity_scope": "SHA-256 verifies byte identity against this manifest, not authorship or an adversary who edits both manifest and files. Original grader hash was not independently reconstructed because its original serialization/hash recipe was unavailable. Other historical source_manifest hashes are preserved declarations; only the bundled case payload is recomputed.",
+  "runs": [
+    {
+      "model": "gemini",
+      "model_key": "google/gemini-3.7-flash",
+      "posthoc_diagnostics": "data/gemini/posthoc-diagnostics.json",
+      "primary_report": "data/gemini/primary-report.json",
+      "script_version_id": "354731097",
+      "source_url": "https://www.kaggle.com/code/simonlevy42/csv-inventory-contract-benchmark/output?scriptVersionId=354731097"
+    },
+    {
+      "model": "haiku",
+      "model_key": "anthropic/claude-haiku-4-5@20251001",
+      "posthoc_diagnostics": "data/haiku/posthoc-diagnostics.json",
+      "primary_report": "data/haiku/primary-report.json",
+      "script_version_id": "354732397",
+      "source_url": "https://www.kaggle.com/code/simonlevy42/csv-inventory-contract-benchmark/output?scriptVersionId=354732397"
+    }
+  ],
+  "schema_version": 1,
+  "scorer_source_fingerprint_recipe": "SHA-256 of UTF-8 source segments of the ten top-level functions in scorer.py, in source order, joined by two LF characters, with no final LF. This is a separate extracted-source fingerprint, not the original grader hash.",
+  "source_notebook": {
+    "included": false,
+    "sha256": "90bd6d974edd82fcd68b9d428163c05ad4a1d2cf5d776f82a6acc0e60917e261",
+    "url": "https://www.kaggle.com/code/simonlevy42/csv-inventory-contract-benchmark?scriptVersionId=354740677"
+  }
+}

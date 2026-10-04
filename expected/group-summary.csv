@@ -1,0 +1,5 @@
+model,group,n,strict_pass,strict_mutation_unknown,adapted_pass,adapter_ineligible,eligible_json_unparseable,parsed_wrong,diagnostic_mutation_assessable,diagnostic_mutation_positive_cases,diagnostic_destructive_rows
+gemini,original-evaluation-public,36,0,36,35,1,0,0,35,0,0
+gemini,composition-evaluation-public,24,0,24,24,0,0,0,24,0,0
+haiku,original-evaluation-public,36,0,36,14,7,0,15,29,9,10
+haiku,composition-evaluation-public,24,0,24,0,1,0,23,23,23,45

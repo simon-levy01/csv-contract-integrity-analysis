@@ -1,0 +1,61 @@
+Return JSON only. Reconcile the provided offline CSV inputs under this complete contract:
+
+This is conservative offline validation, not a claim of Shopify acceptance or live safety.
+Export required headers: Handle, Location, SKU, On hand (current), On hand (new), Option1 Value.
+OptionN Value and Option N Value (N=1,2,3) are explicit aliases; similarly OptionN Name / Option N Name.
+Both spellings of one field are an ALIAS_COLLISION even if values agree. No other header aliases.
+Used options are determined over all rows of one Handle: a nonempty name or value uses that option.
+All rows of the product need a non-whitespace value for every used option. Using option3 requires option2.
+Variant identity is exact Handle plus option1/2/3 values (missing optional columns treated as empty).
+Duplicate variant identity plus Location blocks every duplicate even if SKUs differ.
+Blank keys/identifiers mean empty or entirely whitespace; other whitespace remains exact string data.
+Only signed ASCII whole-number strings [+-]?[0-9]+ are integer values. No decimals/exponents/whitespace.
+Packed fields, when present, are Variant Packed Length, Variant Packed Width, Variant Packed Height,
+Variant Packed Dimension Unit. All four headers are needed. Each row must have four blank cells,
+or three positive finite numeric dimensions plus unit cm/in. In one variant group, exact source tuples
+must agree across ALL locations, including rows with no counts. Otherwise block the whole variant.
+All blank dimensions are preserved and may clear live dimensions on later import; no live safety claim.
+
+File errors, in validation order (first applicable error):
+QUANTITY_SEMANTICS: quantity_kind is anything except absolute-on-hand.
+MAPPING: mapping is not an object of exactly sku/location/quantity mapped to three distinct nonempty
+string header names. This structural check occurs before parsing.
+CSV_SYNTAX: empty/unparseable CSV or repeated leading BOMs. Each input permits one optional leading
+UTF-8 BOM; interior BOMs are cell data and must be preserved. Parse export first, then count CSV.
+HEADERS: either file has an empty or duplicate header. ROW_WIDTH: a record has wrong cell count.
+MAPPING: a mapped count header is absent; occurs after both parses, before export header requirements.
+SCHEMA: a required export header is absent. ALIAS_COLLISION: conflicting option alias headers present.
+OUTPUT_LIMIT: serialized candidate UTF-8 exceeds 15,000,000 bytes including BOM.
+Fatal file errors return null candidate, empty issues, error=code. Unused unknown headers are preserved.
+
+Export issue codes (combine applicable codes, not merely the first):
+BLANK_EXPORT_KEY: SKU or Location blank. DUPLICATE_EXPORT_KEY: exact SKU+Location appears more than once.
+IDENTIFIER_INCOMPLETE: Handle or option1 value blank. OPTION_INCOMPLETE: product option rule above fails
+(flag all rows of the product). DUPLICATE_VARIANT_LOCATION: variant+Location repeated.
+NEW_VALUE_CONFLICT: original On hand (new) is not exactly empty, including whitespace or 0.
+NOT_STOCKED: current case-insensitively equals not stocked; otherwise INVALID_CURRENT if not an integer.
+PACKED_SCHEMA_INCOMPLETE: some but not all packed headers (block all export rows).
+PACKED_INVALID: any row of a variant has incomplete/nonpositive/nonfinite dimensions or invalid unit.
+PACKED_INCONSISTENT: exact packed tuples differ across variant rows (including blank versus populated).
+UNMATCHED_EXPORT: no count key equals this export key.
+DUPLICATE_COUNT_KEY: more than one count row has this key.
+INVALID_COUNT: exactly one count row has this key and its blank key/invalid quantity prevents lookup,
+but do not add INVALID_COUNT when the export key itself is duplicated/ambiguous.
+
+Count issue codes (combine applicable codes):
+BLANK_COUNT_KEY: mapped SKU or Location blank. DUPLICATE_COUNT_KEY: exact count key repeats.
+INVALID_QUANTITY: count value is not an integer. UNMATCHED_COUNT: no export key equals this key.
+AMBIGUOUS_EXPORT_MATCH: multiple export rows have this key. A count row can be key-matched even when
+the export row has a current/identifier/conflict/packed issue; do not cascade those export issues to counts.
+
+Emit only export rows with no issues and a unique issue-free count lookup. Replace only On hand (new)
+with the desired absolute count. Preserve source row order and EVERY other exact string cell.
+For scoring, the emitted new count may use an equivalent integer spelling (7/+7/0007, 0/-0/+0).
+This numeric equivalence NEVER applies to current values, SKUs, identifiers or any other protected cell.
+Headers may be reordered; quote style, LF/CRLF, one optional leading UTF-8 BOM, JSON/issue/code order
+do not affect meaning. Repeated leading BOMs, malformed CSV, non-UTF-8 text or oversized outputs fail.
+Output JSON exactly: {candidate_csv: string|null, issues: list, error: string|null}.
+Each issue entry exactly {source: export|counts, record: integer>=2, codes: nonempty unique string list}.
+Record means CSV record including header, not physical line. Omit issue-free records. Do not duplicate
+issue entries for one source/record. With row-level issues but no fatal error, error=null and candidate
+is valid CSV (header-only if nothing is eligible), never a null candidate.

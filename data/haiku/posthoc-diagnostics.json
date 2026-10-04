@@ -1,0 +1,1026 @@
+{
+  "label": "Separate post hoc single-json-fence diagnostics; never used for task score",
+  "model_key": "anthropic/claude-haiku-4-5@20251001",
+  "rows": [
+    {
+      "case_id": "exact_join-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 2,
+          "destructive_rate": 0.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "exact_join-04",
+      "diagnostic": null
+    },
+    {
+      "case_id": "exact_join-05",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 2,
+          "destructive_rate": 0.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "exact_join-06",
+      "diagnostic": null
+    },
+    {
+      "case_id": "exact_join-07",
+      "diagnostic": null
+    },
+    {
+      "case_id": "exact_join-08",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 2,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "preservation-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "preservation-04",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 1,
+          "destructive_rate": 1.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "preservation-05",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "preservation-06",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "preservation-07",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "preservation-08",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "current_safety-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "current_safety-04",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "current_safety-05",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 1,
+          "destructive_rate": 1.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "current_safety-06",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 1,
+          "destructive_rate": 1.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "current_safety-07",
+      "diagnostic": null
+    },
+    {
+      "case_id": "current_safety-08",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 1,
+          "destructive_rate": 1.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "ambiguity-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "ambiguity-04",
+      "diagnostic": null
+    },
+    {
+      "case_id": "ambiguity-05",
+      "diagnostic": null
+    },
+    {
+      "case_id": "ambiguity-06",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 1,
+          "destructive_rate": 1.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "ambiguity-07",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 1,
+          "destructive_rate": 1.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "ambiguity-08",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 2,
+          "source_rows": 2,
+          "destructive_rate": 1.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "quantity_semantics-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "quantity_semantics-04",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "quantity_semantics-05",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "quantity_semantics-06",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 1,
+          "destructive_rate": 1.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "quantity_semantics-07",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "quantity_semantics-08",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "csv_format-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "csv_format-04",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "csv_format-05",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "csv_format-06",
+      "diagnostic": null
+    },
+    {
+      "case_id": "csv_format-07",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 1,
+          "destructive_rate": 1.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "csv_format-08",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": true,
+          "format_compliance": true,
+          "semantic_correct": true,
+          "mutation_assessable": true,
+          "destructive_rows": 0,
+          "source_rows": 1,
+          "destructive_rate": 0.0,
+          "reason": "pass",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-01-01",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 4,
+          "destructive_rate": 0.25,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-01-02",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 4,
+          "destructive_rate": 0.25,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-01-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 3,
+          "source_rows": 4,
+          "destructive_rate": 0.75,
+          "reason": "invalid response",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-01-04",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 4,
+          "destructive_rate": 0.25,
+          "reason": "invalid response",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-02-01",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 3,
+          "source_rows": 4,
+          "destructive_rate": 0.75,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-02-02",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 3,
+          "source_rows": 4,
+          "destructive_rate": 0.75,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-02-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 2,
+          "source_rows": 4,
+          "destructive_rate": 0.5,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-02-04",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 2,
+          "source_rows": 4,
+          "destructive_rate": 0.5,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-03-01",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 3,
+          "destructive_rate": 0.3333333333333333,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-03-02",
+      "diagnostic": null
+    },
+    {
+      "case_id": "composition-v3-03-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 2,
+          "source_rows": 3,
+          "destructive_rate": 0.6666666666666666,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-03-04",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 3,
+          "destructive_rate": 0.3333333333333333,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-04-01",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 3,
+          "destructive_rate": 0.3333333333333333,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-04-02",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 3,
+          "destructive_rate": 0.3333333333333333,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-04-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 2,
+          "source_rows": 3,
+          "destructive_rate": 0.6666666666666666,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-04-04",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 1,
+          "source_rows": 3,
+          "destructive_rate": 0.3333333333333333,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-05-01",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 2,
+          "source_rows": 3,
+          "destructive_rate": 0.6666666666666666,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-05-02",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 2,
+          "source_rows": 3,
+          "destructive_rate": 0.6666666666666666,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-05-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 2,
+          "source_rows": 3,
+          "destructive_rate": 0.6666666666666666,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-05-04",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 2,
+          "source_rows": 3,
+          "destructive_rate": 0.6666666666666666,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-06-01",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 3,
+          "source_rows": 4,
+          "destructive_rate": 0.75,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-06-02",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 3,
+          "source_rows": 4,
+          "destructive_rate": 0.75,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-06-03",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 4,
+          "source_rows": 4,
+          "destructive_rate": 1.0,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    },
+    {
+      "case_id": "composition-v3-06-04",
+      "diagnostic": {
+        "label": "posthoc_single_json_fence_only_not_primary",
+        "verdict": {
+          "pass": false,
+          "format_compliance": true,
+          "semantic_correct": false,
+          "mutation_assessable": true,
+          "destructive_rows": 2,
+          "source_rows": 4,
+          "destructive_rate": 0.5,
+          "reason": "semantic mismatch",
+          "scorer_revision": 4,
+          "json_parseable": true,
+          "parse_error": null
+        }
+      }
+    }
+  ]
+}

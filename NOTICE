@@ -1,0 +1,18 @@
+CSV benchmark portable offline analysis supplement
+
+Upstream benchmark: csv-inventory-contract-benchmark
+Public source author: Kaggle user simonlevy42
+Source: https://www.kaggle.com/code/simonlevy42/csv-inventory-contract-benchmark
+Upstream license: Apache License, Version 2.0 (as displayed on the public Kaggle source).
+
+This is a separate posthoc analysis supplement, prepared 2026-10-04.
+It contains unchanged public synthetic case/contract bytes, unchanged canonical
+raw primary/posthoc reports, and ten verbatim extracted pure scorer functions.
+New or adapted material comprises the portable offline runner, descriptive
+analysis helper packaging, manifest, tests, reports and documentation.
+The benchmark prompt, primary metric, scorer semantics and original evidence
+are unchanged. No new model run is part of this supplement.
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+No claim of endorsement by Kaggle, Google, Anthropic, or upstream contributors
+is made. Preserve this notice and applicable upstream attribution when sharing.

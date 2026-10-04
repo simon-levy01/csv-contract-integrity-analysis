@@ -1,0 +1,45 @@
+{
+  "audit_date": "2026-10-04",
+  "integrity": {
+    "manifest_path_traversal_rejected": true,
+    "missing_input_rejected": true,
+    "modified_scorer_rejected": true,
+    "optimized_mode_corruption_rejected": true,
+    "output_overwrite_protected": true
+  },
+  "original_grader_hash_verification": "declaration-aligned only",
+  "portability": {
+    "different_cwd": true,
+    "explicit_utf8_lf": true,
+    "hash_seed_determinism": true,
+    "intended_minimum_python": "3.8",
+    "paths_with_spaces": true,
+    "windows_macos_execution": "not performed; structural portability only"
+  },
+  "release_archive_verification": "External SHA-256 sidecar accompanies the release ZIP; hash is not self-embedded.",
+  "reproduction": {
+    "detailed_case_records_match_prior_analysis": 120,
+    "oracle_self_consistency": 72,
+    "original_files_unchanged": 33,
+    "posthoc_outcomes": 120,
+    "primary_verdicts": 120,
+    "prompt_hashes": 120,
+    "raw_reports_byte_identical": 4
+  },
+  "scope": "local-only offline analysis supplement",
+  "security": {
+    "independent_audit_with_network_subprocess_denied": "pass",
+    "network_or_model_calls": 0,
+    "no_driver_notebook_included": true,
+    "no_machine_specific_paths_included": true,
+    "no_signed_download_urls_included": true
+  },
+  "tests": {
+    "command": "python3 -B -m unittest discover -s tests -v",
+    "count": 11,
+    "os": "Linux",
+    "python": "3.12.14",
+    "result": "pass",
+    "test_first_red_failures": 11
+  }
+}

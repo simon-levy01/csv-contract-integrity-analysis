@@ -1,0 +1,24 @@
+{
+  "case_requests_hash_verified": 120,
+  "contract_sha256_recomputed": "fd05304bb5187c7f2c5ce7f03d8020a7721ada236971b44b7c2d7e04f9d843e2",
+  "expected_oracle_self_consistency_checks": 72,
+  "grader_hash_caveat": "Frozen grader hash agrees between the frozen declaration and both reports; its original serialization/hash recipe was unavailable, so that original hash was not independently recomputed. All saved verdicts were reproduced with extracted pure functions. The isolated-function fingerprint is separate, not a substitute.",
+  "grader_sha256_declared": "099985418bba51d1762e46bb86afed66f177f4d98bf2dadd02630674f8b11c3d",
+  "isolated_function_source_sha256": "31f1d417f9e2be27d87127369b6af05f5bb112aeb7455c524eb0317f9fc8da89",
+  "offline_only": true,
+  "original_grader_hash_verification": "declaration-aligned only",
+  "original_reports_byte_preserved": true,
+  "portable_cases_sha256_recomputed": "a08a7b2d3d2f6426098f83137e5de9bf5ac2ba13954af8fb831d6baf695371f9",
+  "posthoc_report_sha256": {
+    "gemini": "4b0489a19be6d33f0fa98bcbab06a4fd96472311d251d23fa3b892a27281cc57",
+    "haiku": "b75c380f876d4f4ee3b8af842d88badba4642a330910313cb88dc9d7a0a2c201"
+  },
+  "primary_report_sha256": {
+    "gemini": "1db779322fa5cf93e0dae218842c8ac1188e94252f08d4b4bb40136fcf749263",
+    "haiku": "0653bda45621a01a742cb1ca21fa0c54569a01e10366176c5ebc3df1ba917d7d"
+  },
+  "result": "pass",
+  "saved_posthoc_verdicts_reproduced": 120,
+  "saved_primary_verdicts_reproduced": 120,
+  "source_notebook_sha256_declared": "90bd6d974edd82fcd68b9d428163c05ad4a1d2cf5d776f82a6acc0e60917e261"
+}
